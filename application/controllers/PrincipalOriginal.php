@@ -12,7 +12,7 @@ class Principal extends CI_Controller {
         $this->load->model('Pgsql');
         $this->load->library('Configemail');
     }
-
+//comentarios
     public function index() {
 
         redirect('principal/inicio', 'refresh');
