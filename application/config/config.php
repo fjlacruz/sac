@@ -23,9 +23,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['site_name'] = 'SAC';
+$config['site_name'] = 'Prueba';
 
-$config['base_url'] = 'https://127.0.0.1/sac/';
+$config['base_url'] = 'https://127.0.0.1/prueba_tecnica';
 
 /*
 |--------------------------------------------------------------------------
@@ -372,7 +372,7 @@ $config['encryption_key'] = '';
 */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 100;
+$config['sess_expiration'] = 10000;
 //$config['sess_save_path'] = NULL;
 $config['sess_save_path'] = sys_get_temp_dir();
 $config['sess_match_ip'] = FALSE;

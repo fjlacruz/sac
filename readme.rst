@@ -1,1 +1,0 @@
-Sistema de Administracion de Condominios

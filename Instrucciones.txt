@@ -1,0 +1,43 @@
+============ Prueba Técnica ======================
+
+Acrivos de configuracion:
+Nombre del archivo que contiene la aplicacion:
+prueba_tecnica
+ingresar a la siguiente ruta:
+prueba_tecnica->applications->config->config.php
+
+linea 28: $config['base_url'] = 'https://127.0.0.1/prueba_tecnica'; ruta por donde levantara la aplicación
+
+Conección a la base de datos:
+prueba_tecnica->applications->config->dabase.php
+
+linea 76: $db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'prueba_tecnica',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
+
+
+
+
+Esta aplicación corre en apache con php 7 y mysql
+localhost/prueba_tecnica
+
+usuario:ADMIN
+clave: AAbb01**
